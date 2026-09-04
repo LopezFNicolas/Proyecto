@@ -48,7 +48,25 @@ public class Main {
         Basquetbolista b2 = new Basquetbolista("Mateo Salazar", 21, true, 88.0, "Pívot", 12, 2.05, true);
 
 
+        // ============ IMPRESIÓN DE TODOS LOS OBJETOS (toString) ============
 
+        System.out.println("=== Deportistas genéricos ===");
+        System.out.println(d1);
+        System.out.println(d2);
+
+        System.out.println("\n=== Futbolistas ===");
+        System.out.println(f1);
+        System.out.println(f2);
+        System.out.println(f3);
+
+        System.out.println("\n=== Tenistas ===");
+        System.out.println(t1);
+        System.out.println(t2);
+
+        System.out.println("\n=== Basquetbolistas ===");
+        System.out.println(b1);
+        System.out.println(b2);
+    }
 
 
 }
