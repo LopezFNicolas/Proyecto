@@ -10,7 +10,7 @@ public class Deportista {
     }
 
     public Deportista(String nombre, int edad) {
-        this(nombre, edad, true, 0.0);
+        this("nombre", edad, true, 0.0);
     }
 
     public Deportista(String nombre, int edad, boolean activo, double peso){
