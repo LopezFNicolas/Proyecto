@@ -19,3 +19,36 @@ public class Tenista extends Deportista {
         this.porcentajeSaquesGanados = porcentajeSaquesGanados;
         this.juegaDobles = juegaDobles;
     }
+
+    public String getManoHabil() {
+        return manoHabil;
+    }
+
+    public void setManoHabil(String manoHabil) {
+        this.manoHabil = manoHabil;
+    }
+
+    public int getRankingATP() {
+        return rankingATP;
+    }
+
+    public void setRankingATP(int rankingATP) {
+        this.rankingATP = rankingATP;
+    }
+
+    public double getPorcentajeSaquesGanados() {
+        return porcentajeSaquesGanados;
+    }
+
+    public void setPorcentajeSaquesGanados(double porcentajeSaquesGanados) {
+        this.porcentajeSaquesGanados = porcentajeSaquesGanados;
+    }
+
+    public boolean getJuegaDobles() {
+        return juegaDobles;
+    }
+
+    public void setJuegaDobles(boolean juegaDobles) {
+        this.juegaDobles = juegaDobles;
+    }
+}
