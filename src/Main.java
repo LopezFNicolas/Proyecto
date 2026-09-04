@@ -37,6 +37,17 @@ public class Main {
         // conocen todos los datos físicos y deportivos de la tenista.
         Tenista t2 = new Tenista("Camila Duarte", 26, true, 61.0, "Zurda", 15, 68.4, true);
 
+// ============ OBJETOS DE LA SUBCLASE Basquetbolista ============
+
+        // Se usa el constructor de 4 parámetros porque se conoce la
+        // posición y el número de camiseta, pero aún no hay datos físicos.
+        Basquetbolista b1 = new Basquetbolista("Laura Ibáñez", 22, "Base", 7);
+
+        // Se usa el constructor de 8 parámetros (completo) porque ya se
+        // cuenta con toda la información del jugador titular.
+        Basquetbolista b2 = new Basquetbolista("Mateo Salazar", 21, true, 88.0, "Pívot", 12, 2.05, true);
+
+
 
 
 
