@@ -12,5 +12,21 @@ public class Main {
         Deportista d2 = new Deportista("Ricardo Peña", 30, true, 78.5);
 
 
+        // ============ OBJETOS DE LA SUBCLASE Futbolista ============
+
+        // Se usa el constructor de 2 parámetros porque en este escenario
+        // solo se conocen el nombre y la edad del jugador (recién fichado,
+        // aún sin evaluación física ni posición asignada).
+        Futbolista f1 = new Futbolista("Kevin Gómez", 23);
+
+        // Se usa el constructor de 4 parámetros porque ya se conoce la
+        // posición y los goles del jugador, además de nombre y edad.
+        Futbolista f2 = new Futbolista("Andrés Ruiz", 27, "Defensa", 2);
+
+        // Se usa el constructor de 8 parámetros (completo) porque se cuenta
+        // con toda la información física y deportiva del jugador.
+        Futbolista f3 = new Futbolista("Luis Torres", 24, true, 72.0, "Delantero", 15, 28.5, true);
+
+
 
 }
