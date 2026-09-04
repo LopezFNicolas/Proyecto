@@ -51,4 +51,17 @@ public class Tenista extends Deportista {
     public void setJuegaDobles(boolean juegaDobles) {
         this.juegaDobles = juegaDobles;
     }
+    @Override
+    public String toString() {
+        return "Tenista{" +
+                "nombre = " + getNombre() +
+                ", edad = " + getEdad() +
+                ", activo = " + getActivo() +
+                ", peso = " + getPeso() +
+                ", manoHabil = " + manoHabil +
+                ", rankingATP = " + rankingATP +
+                ", porcentajeSaquesGanados = " + porcentajeSaquesGanados +
+                ", juegaDobles = " + juegaDobles +
+                '}';
+    }
 }
