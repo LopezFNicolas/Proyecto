@@ -19,5 +19,49 @@ public class Basquetbolista extends Deportista {
         this.estatura = estatura;
         this.esTitular = esTitular;
     }
+    public String getPosicion() {
+        return posicion;
+    }
 
+    public void setPosicion(String posicion) {
+        this.posicion = posicion;
+    }
+
+    public int getNumeroCamiseta() {
+        return numeroCamiseta;
+    }
+
+    public void setNumeroCamiseta(int numeroCamiseta) {
+        this.numeroCamiseta = numeroCamiseta;
+    }
+
+    public double getEstatura() {
+        return estatura;
+    }
+
+    public void setEstatura(double estatura) {
+        this.estatura = estatura;
+    }
+
+    public boolean getEsTitular() {
+        return esTitular;
+    }
+
+    public void setEsTitular(boolean esTitular) {
+        this.esTitular = esTitular;
+    }
+
+    @Override
+    public String toString() {
+        return "Basquetbolista{" +
+                "nombre = " + getNombre() +
+                ", edad = " + getEdad() +
+                ", activo = " + getActivo() +
+                ", peso = " + getPeso() +
+                ", posicion = " + posicion +
+                ", numeroCamiseta = " + numeroCamiseta +
+                ", estatura = " + estatura +
+                ", esTitular = " + esTitular +
+                '}';
+    }
 }
